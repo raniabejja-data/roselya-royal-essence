@@ -11,7 +11,7 @@ const TopBar = () => {
       </p>
       <div className="flex items-center gap-3 ml-4 shrink-0">
         <a
-          href="https://instagram.com/roselya__huiles_parfumees"
+          href="https://www.instagram.com/roselya_huile_parfumees?utm_source=qr&igsh=ZDFmZHR2azQ5MWR4"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gold transition-colors duration-200"
