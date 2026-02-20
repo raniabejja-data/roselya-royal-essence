@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom"; // Bedelna BrowserRouter b HashRouter
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import HuilesPage from "./pages/HuilesPage";
@@ -35,7 +35,7 @@ const AppLayout = () => {
           <Route path="/packs" element={<PacksPage />} />
           <Route path="/apropos" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-        <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <RoselyaFooter />
@@ -50,11 +50,11 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <HashRouter> {/* Bedelna hna taniya */}
         <CartProvider>
           <AppLayout />
         </CartProvider>
-      </BrowserRouter>
+      </HashRouter> {/* O hna talta */}
     </TooltipProvider>
   </QueryClientProvider>
 );
