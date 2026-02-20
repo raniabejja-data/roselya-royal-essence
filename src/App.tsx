@@ -35,8 +35,8 @@ const AppLayout = () => {
           <Route path="/packs" element={<PacksPage />} />
           <Route path="/apropos" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="*" element={<<Route path="/" element={<Navigate to="/roselya-royal-essence" replace />} />
-<Route path="/roselya-royal-essence" element={<Index />} />d />} />
+         <<Route path="/" element={<Navigate to="/roselya-royal-essence" replace />} />
+<Route path="/roselya-royal-essence" element={<Index />} />
         </Routes>
       </div>
       <RoselyaFooter />
