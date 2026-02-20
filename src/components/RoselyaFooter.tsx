@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-end gap-4">
           <h4 className="font-display text-lg text-gold tracking-wide">Nous suivre</h4>
           <a
-            href="https://instagram.com/roselya__huiles_parfumees"
+            href="https://www.instagram.com/roselya_huile_parfumees?utm_source=qr&igsh=ZDFmZHR2azQ5MWR4"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 font-body text-[12px] hover:text-gold transition-colors"
