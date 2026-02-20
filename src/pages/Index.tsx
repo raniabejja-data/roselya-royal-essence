@@ -14,9 +14,8 @@ const HeroSection = () => (
       playsInline
       className="absolute inset-0 w-full h-full object-cover"
     >
-      <source src="/hero-video.mov" type="video/mp4" />
-      <source src="/hero-video.mov" type="video/quicktime" />
-    </video>
+ <source src="/roselya-royal-essence/hero-video.mov" type="video/mp4" />
+<source src="/roselya-royal-essence/hero-video.mov" type="video/quicktime" />
 
     {/* Overlay */}
     <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/60" />
